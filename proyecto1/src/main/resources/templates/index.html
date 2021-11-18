@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <link th:href="@{/css/bootstrap.css}" rel="stylesheet" href="../static/css/bootstrap.css" />
+
+    <script th:src="@{/js/jquery.js}" src="../static/js/jquery.js"></script>
+    <script th:src="@{/js/bootstrap.js}" src="../static/js/bootstrap.js"></script>
+
+
+    <title>proyecto 1</title>
+  </head>
+  <body>
+
+    <!--Nav-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Spring Boot</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" th:href="@{/}" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link" href="#">Galeria</a>
+            <a class="nav-link" href="#">Post</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--Header-->
+    <div class="jumbotron">
+      <h1 class="display-4">Hello, world!</h1>
+      <p class="lead">Se muestran resultados de un laboratorio de electronica</p>
+      <hr class="ay-4">
+    </div>
+
+    <div class="container">
+      <div class="row">
+
+        <!--Cards-->
+        <div class="col-3">
+          <div class="card" style="width: 18rem;">
+            <img th:src="@{/img/post.jpg}" src="../static/img/post.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Datos de laboratorio</h5>
+              <p class="card-text">se toma la medida de la corriente que pasa por un circuito RC</p>
+            </div>
+          </div>
+        </div>
+
+          <div class="col-3">
+            <div class="card" style="width: 18rem;">
+              <img th:src="@{/img/post1.jpeg}" src="../static/img/post1.jpeg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Datos de laboratorio</h5>
+                <p class="card-text">se toma la medida de la corriente que circula por un diodo infrarrojo</p>
+              </div>
+            </div>
+          </div>
+
+
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <img th:src="@{/img/post2.jpeg}" src="../static/img/post2.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Datos de laboratorio</h5>
+                  <p class="card-text">se toma la medida del voltaje que hay en un multiplicador de tensión</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-3">
+              <div class="card" style="width: 18rem;">
+                <img th:src="@{/img/post3.jpeg}" src="../static/img/post3.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Datos de laboratorio</h5>
+                  <p class="card-text">multiplicador de tensión</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </body>
+
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Id</th>
+          <th>Apellodos</th>
+          <th>Estación</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr th:each=" usuario : ${usuarios}">
+          <th th:text=" ${usuario.Id}"></th>
+          <th th:text=" ${usuario.Nombre}"></th>
+          <th th:text=" ${usuario.Estacion}"></th>
+
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
