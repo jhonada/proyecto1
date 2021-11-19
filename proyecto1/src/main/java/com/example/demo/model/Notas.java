@@ -9,7 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Column;
 */
-@Entity
+//@Entity
 //@Table(name="usuario")
 public class Notas {
 

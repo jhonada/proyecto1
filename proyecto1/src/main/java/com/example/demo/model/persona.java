@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 import javax.persistence.Entity;
 
-@Entity
+//@Entity
 public class persona implements Serializable{
 
 	
