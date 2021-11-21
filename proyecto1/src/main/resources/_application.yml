@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    database: SQL_SERVER
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+  datasource:
+    platform: SQL
+    url: jdbc:sqlserver://localhost;databaseName=Asesores
+    username: user2
+    password: 123
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver

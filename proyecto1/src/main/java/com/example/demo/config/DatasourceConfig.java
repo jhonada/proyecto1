@@ -31,9 +31,9 @@ public class DatasourceConfig {
     public DataSource datasource() {
         return  DataSourceBuilder.create()
           .driverClassName("com.microsoft.sqlserver.jdbc.SQLServerDriver")
-          .url("jdbc:sqlserver://localhost:1433;databaseName=notasAPI")
-          .username("sa")
-          .password("superu1")
+          .url("jdbc:sqlserver://localhost:1433;databaseName=Asesores")
+          .username("user2")
+          .password("123")
           .build();	
         
     }

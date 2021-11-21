@@ -2,25 +2,29 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Base de datos</title>
   </head>
   <body>
     <table border="1">
       <thead>
         <tr>
           <th>Id</th>
-          <th>Apellodos</th>
+          <th>Nombre</th>
           <th>Estación</th>
         </tr>
       </thead>
       <tbody>
-        <tr th:each=" usuario : ${usuarios}">
-          <th th:text=" ${usuario.Id}"></th>
-          <th th:text=" ${usuario.Nombre}"></th>
-          <th th:text=" ${usuario.Estacion}"></th>
+        <tr th:each="usuario : ${listUsuario}">
+          <td th:text=" ${usuario.Id}"></td>
+          <td th:text=" ${usuario.Nombre}"></td>
+          <td th:text=" ${usuario.Estacion}"></td>
+          <td><a th:href="@{'/hola/editarUsuario/' + ${usuario.Id}}">Editar</a></td>
+          &nbsp;&nbsp;&nbsp;
+          <td><a th:href="@{'/hola/eliminarUsuario/' + ${usuario.Id}}">Eliminar</a></td>
 
         </tr>
       </tbody>
     </table>
+      <a href="newUsuario">Crear Usuario</a>
   </body>
 </html>
