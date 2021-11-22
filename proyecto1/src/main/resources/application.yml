@@ -1,9 +1,13 @@
+
+server:
+  port: 8090
+
 spring:
   jpa:
     database: SQL_SERVER
     show-sql: true
     hibernate:
-      ddl-auto: create-drop
+      ddl-auto: update
   datasource:
     platform: SQL
     url: jdbc:sqlserver://localhost;databaseName=Asesores
