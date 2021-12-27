@@ -1,0 +1,26 @@
+2021-12-17 15:51:22,315 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-4] ---------Starting Interceptor --------------------
+2021-12-17 15:51:22,588 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-4] the intercepted method is: listAllUsuarios, of the class: com.example.demo.controllers.ControllerBasic, with the following arguments  >>> ARG: {},
+2021-12-17 15:51:22,589 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-4] ---------Starting Interceptor --------------------
+2021-12-17 15:51:22,590 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-4] the intercepted method is: listAllUsuario, of the class: com.example.demo.service.Impl.UsuarioServiceImpl, with the following arguments  >>>
+2021-12-17 15:51:22,920 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-4] <<< Return << listAllUsuario: [com.example.demo.model.Usuario@d6d076, com.example.demo.model.Usuario@1a5718, com.example.demo.model.Usuario@1aa3c0b, com.example.demo.model.Usuario@4c9fd8, com.example.demo.model.Usuario@bbbbc7, com.example.demo.model.Usuario@a18b1f, com.example.demo.model.Usuario@bb724]
+2021-12-17 15:51:22,921 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-4] execution time: 331 ms
+2021-12-17 15:51:22,922 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-4] <<< Return << listAllUsuarios: list
+2021-12-17 15:51:22,922 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-4] execution time: 332 ms
+2021-12-17 15:54:00,835 INFO org.springframework.boot.StartupInfoLogger [main] Starting Proyecto1Application using Java 1.8.0_20 on JDIAZ with PID 16612 (C:\Spring Tools\sts-4.11.1.RELEASE\workspace\proyecto1\target\classes started by anderson in C:\Spring Tools\sts-4.11.1.RELEASE\workspace\proyecto1)
+2021-12-17 15:54:00,840 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-12-17 15:54:00,841 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-12-17 15:54:14,203 INFO com.example.demo.aspect.SaludoLog [main] ---------Starting Interceptor --------------------
+2021-12-17 15:54:14,205 INFO com.example.demo.aspect.SaludoLog [main] the intercepted method is: entityManagerFactory, of the class: com.example.demo.config.DatasourceConfig, with the following arguments  >>>
+2021-12-17 15:54:14,246 INFO com.example.demo.aspect.SaludoLog [main] ---------Starting Interceptor --------------------
+2021-12-17 15:54:14,247 INFO com.example.demo.aspect.SaludoLog [main] the intercepted method is: datasource, of the class: com.example.demo.config.DatasourceConfig, with the following arguments  >>>
+2021-12-17 15:54:15,266 INFO com.example.demo.aspect.SaludoLog [main] <<< Return << datasource: HikariDataSource (null)
+2021-12-17 15:54:15,273 INFO com.example.demo.aspect.SaludoLog [main] execution time: 1020 ms
+2021-12-17 15:54:15,420 INFO com.example.demo.aspect.SaludoLog [main] <<< Return << entityManagerFactory: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@196a546
+2021-12-17 15:54:15,421 INFO com.example.demo.aspect.SaludoLog [main] execution time: 1173 ms
+2021-12-17 15:54:43,713 INFO com.example.demo.aspect.SaludoLog [main] ---------Starting Interceptor --------------------
+2021-12-17 15:54:43,714 INFO com.example.demo.aspect.SaludoLog [main] the intercepted method is: transactionManager, of the class: com.example.demo.config.DatasourceConfig, with the following arguments  >>>
+2021-12-17 15:54:43,748 INFO com.example.demo.aspect.SaludoLog [main] <<< Return << transactionManager: org.springframework.orm.jpa.JpaTransactionManager@7df588
+2021-12-17 15:54:43,750 INFO com.example.demo.aspect.SaludoLog [main] execution time: 36 ms
+2021-12-17 15:54:43,806 INFO com.example.demo.aspect.SaludoLog [main] ---------Starting Interceptor --------------------
+2021-12-17 15:54:43,806 INFO com.example.demo.aspect.SaludoLog [main] the intercepted method is: api, of the class: com.example.demo.config.SwaggerConfig, with the following arguments  >>>
+

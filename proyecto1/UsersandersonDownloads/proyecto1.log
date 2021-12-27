@@ -1,0 +1,109 @@
+2021-12-16 10:05:28,660 WARN  [HikariPool-1 housekeeper] c.z.h.p.HikariPool:787 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=17h8m41s522ms527µs700ns).
+2021-12-16 10:07:49,213 INFO  [RMI TCP Connection(118)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2021-12-16 10:07:49,738 INFO  [RMI TCP Connection(118)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'unidaddePersisteniaPU'
+2021-12-16 10:07:49,742 INFO  [RMI TCP Connection(118)-127.0.0.1] c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-12-16 10:07:49,791 INFO  [RMI TCP Connection(118)-127.0.0.1] c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-12-16 10:08:31,137 INFO  [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-12-16 10:08:31,156 INFO  [main] c.e.Proyecto1Application:55 - Starting Proyecto1Application using Java 1.8.0_20 on JDIAZ with PID 16392 (C:\Spring Tools\sts-4.11.1.RELEASE\workspace\proyecto1\target\classes started by anderson in C:\Spring Tools\sts-4.11.1.RELEASE\workspace\proyecto1)
+2021-12-16 10:08:31,157 INFO  [main] c.e.Proyecto1Application:664 - No active profile set, falling back to default profiles: default
+2021-12-16 10:08:35,218 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate:128 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-16 10:08:35,373 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate:188 - Finished Spring Data repository scanning in 134 ms. Found 2 JPA repository interfaces.
+2021-12-16 10:08:36,495 WARN  [main] o.m.s.m.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2021-12-16 10:08:37,945 INFO  [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8090 (http)
+2021-12-16 10:08:37,963 INFO  [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8090"]
+2021-12-16 10:08:37,964 INFO  [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-12-16 10:08:37,964 INFO  [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-16 10:08:39,304 INFO  [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-12-16 10:08:39,305 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 8017 ms
+2021-12-16 10:08:39,762 INFO  [main] c.e.d.c.DatasourceConfig:37 - ---------Starting Interceptor --------------------
+2021-12-16 10:08:39,763 INFO  [main] c.e.d.c.DatasourceConfig:43 - the intercepted method is: entityManagerFactory, of the class: com.example.demo.config.DatasourceConfig, with the following arguments  >>>
+2021-12-16 10:08:39,806 INFO  [main] c.e.d.c.DatasourceConfig:37 - ---------Starting Interceptor --------------------
+2021-12-16 10:08:39,807 INFO  [main] c.e.d.c.DatasourceConfig:43 - the intercepted method is: datasource, of the class: com.example.demo.config.DatasourceConfig, with the following arguments  >>>
+2021-12-16 10:08:40,056 INFO  [main] c.e.d.c.DatasourceConfig:50 - <<< Return << datasource: HikariDataSource (null)
+2021-12-16 10:08:40,060 INFO  [main] c.e.d.c.DatasourceConfig:52 - execution time: 249 ms
+2021-12-16 10:08:40,110 INFO  [main] c.e.d.c.DatasourceConfig:50 - <<< Return << entityManagerFactory: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@50131a
+2021-12-16 10:08:40,111 INFO  [main] c.e.d.c.DatasourceConfig:52 - execution time: 304 ms
+2021-12-16 10:08:40,195 INFO  [main] o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: unidaddePersisteniaPU]
+2021-12-16 10:08:40,341 INFO  [main] o.h.Version:44 - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-16 10:08:40,651 INFO  [main] o.h.a.c.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-16 10:08:41,012 INFO  [main] c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2021-12-16 10:08:45,055 INFO  [main] c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-12-16 10:08:45,163 INFO  [main] o.h.d.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2021-12-16 10:08:47,204 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-16 10:08:47,227 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'unidaddePersisteniaPU'
+2021-12-16 10:08:48,511 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:221 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-16 10:08:49,040 INFO  [main] o.s.b.a.e.w.EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-12-16 10:08:49,211 INFO  [main] c.e.d.c.DatasourceConfig:37 - ---------Starting Interceptor --------------------
+2021-12-16 10:08:49,212 INFO  [main] c.e.d.c.DatasourceConfig:43 - the intercepted method is: transactionManager, of the class: com.example.demo.config.DatasourceConfig, with the following arguments  >>>
+2021-12-16 10:08:49,244 INFO  [main] c.e.d.c.DatasourceConfig:50 - <<< Return << transactionManager: org.springframework.orm.jpa.JpaTransactionManager@121e96f
+2021-12-16 10:08:49,245 INFO  [main] c.e.d.c.DatasourceConfig:52 - execution time: 33 ms
+2021-12-16 10:08:49,286 INFO  [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-16 10:08:49,290 INFO  [main] c.e.d.c.SwaggerConfig:37 - ---------Starting Interceptor --------------------
+2021-12-16 10:08:49,291 INFO  [main] c.e.d.c.SwaggerConfig:43 - the intercepted method is: api, of the class: com.example.demo.config.SwaggerConfig, with the following arguments  >>>
+2021-12-16 10:08:49,321 INFO  [main] c.e.d.c.SwaggerConfig:50 - <<< Return << api: springfox.documentation.spring.web.plugins.Docket@1df94f2
+2021-12-16 10:08:49,322 INFO  [main] c.e.d.c.SwaggerConfig:52 - execution time: 31 ms
+2021-12-16 10:08:49,631 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-12-16 10:08:59,929 INFO  [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8090"]
+2021-12-16 10:08:59,979 INFO  [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8090 (http) with context path ''
+2021-12-16 10:08:59,982 INFO  [main] s.d.s.w.p.DocumentationPluginsBootstrapper:160 - Context refreshed
+2021-12-16 10:09:00,099 INFO  [main] s.d.s.w.p.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2021-12-16 10:09:00,190 INFO  [main] s.d.s.w.s.ApiListingReferenceScanner:41 - Scanning for api listing references
+2021-12-16 10:09:00,846 INFO  [main] c.e.Proyecto1Application:61 - Started Proyecto1Application in 30.698 seconds (JVM running for 46.433)
+2021-12-16 10:15:59,328 INFO  [RMI TCP Connection(18)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2021-12-16 10:15:59,782 INFO  [RMI TCP Connection(18)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'unidaddePersisteniaPU'
+2021-12-16 10:15:59,796 INFO  [RMI TCP Connection(18)-127.0.0.1] c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-12-16 10:15:59,802 INFO  [RMI TCP Connection(18)-127.0.0.1] c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.
+2021-12-16 10:31:02,745 INFO  [background-preinit] o.h.v.i.u.Version:21 - HV000001: Hibernate Validator 6.1.7.Final
+2021-12-16 10:31:02,764 INFO  [main] c.e.Proyecto1Application:55 - Starting Proyecto1Application using Java 1.8.0_20 on JDIAZ with PID 16740 (C:\Spring Tools\sts-4.11.1.RELEASE\workspace\proyecto1\target\classes started by anderson in C:\Spring Tools\sts-4.11.1.RELEASE\workspace\proyecto1)
+2021-12-16 10:31:02,766 INFO  [main] c.e.Proyecto1Application:664 - No active profile set, falling back to default profiles: default
+2021-12-16 10:31:04,646 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate:128 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-16 10:31:04,757 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate:188 - Finished Spring Data repository scanning in 95 ms. Found 2 JPA repository interfaces.
+2021-12-16 10:31:05,592 WARN  [main] o.m.s.m.ClassPathMapperScanner:44 - No MyBatis mapper was found in '[com.example]' package. Please check your configuration.
+2021-12-16 10:31:06,642 INFO  [main] o.s.b.w.e.t.TomcatWebServer:108 - Tomcat initialized with port(s): 8090 (http)
+2021-12-16 10:31:06,660 INFO  [main] o.a.c.h.Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8090"]
+2021-12-16 10:31:06,661 INFO  [main] o.a.c.c.StandardService:173 - Starting service [Tomcat]
+2021-12-16 10:31:06,662 INFO  [main] o.a.c.c.StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/9.0.52]
+2021-12-16 10:31:06,907 INFO  [main] o.a.c.c.C.[.[.[/]:173 - Initializing Spring embedded WebApplicationContext
+2021-12-16 10:31:06,907 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext:289 - Root WebApplicationContext: initialization completed in 3986 ms
+2021-12-16 10:31:07,309 INFO  [main] c.e.d.c.DatasourceConfig:37 - ---------Starting Interceptor --------------------
+2021-12-16 10:31:07,310 INFO  [main] c.e.d.c.DatasourceConfig:43 - the intercepted method is: entityManagerFactory, of the class: com.example.demo.config.DatasourceConfig, with the following arguments  >>>
+2021-12-16 10:31:07,348 INFO  [main] c.e.d.c.DatasourceConfig:37 - ---------Starting Interceptor --------------------
+2021-12-16 10:31:07,349 INFO  [main] c.e.d.c.DatasourceConfig:43 - the intercepted method is: datasource, of the class: com.example.demo.config.DatasourceConfig, with the following arguments  >>>
+2021-12-16 10:31:07,586 INFO  [main] c.e.d.c.DatasourceConfig:50 - <<< Return << datasource: HikariDataSource (null)
+2021-12-16 10:31:07,591 INFO  [main] c.e.d.c.DatasourceConfig:52 - execution time: 238 ms
+2021-12-16 10:31:07,636 INFO  [main] c.e.d.c.DatasourceConfig:50 - <<< Return << entityManagerFactory: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@19b85d6
+2021-12-16 10:31:07,636 INFO  [main] c.e.d.c.DatasourceConfig:52 - execution time: 287 ms
+2021-12-16 10:31:07,697 INFO  [main] o.h.j.i.u.LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: unidaddePersisteniaPU]
+2021-12-16 10:31:07,845 INFO  [main] o.h.Version:44 - HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-12-16 10:31:08,151 INFO  [main] o.h.a.c.Version:56 - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-16 10:31:08,496 INFO  [main] c.z.h.HikariDataSource:110 - HikariPool-1 - Starting...
+2021-12-16 10:31:09,818 INFO  [main] c.z.h.HikariDataSource:123 - HikariPool-1 - Start completed.
+2021-12-16 10:31:09,895 INFO  [main] o.h.d.Dialect:175 - HHH000400: Using dialect: org.hibernate.dialect.SQLServer2012Dialect
+2021-12-16 10:31:11,365 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-16 10:31:11,389 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'unidaddePersisteniaPU'
+2021-12-16 10:31:12,488 WARN  [main] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration:221 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-16 10:31:12,945 INFO  [main] o.s.b.a.e.w.EndpointLinksResolver:58 - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-12-16 10:31:13,060 INFO  [main] c.e.d.c.DatasourceConfig:37 - ---------Starting Interceptor --------------------
+2021-12-16 10:31:13,060 INFO  [main] c.e.d.c.DatasourceConfig:43 - the intercepted method is: transactionManager, of the class: com.example.demo.config.DatasourceConfig, with the following arguments  >>>
+2021-12-16 10:31:13,081 INFO  [main] c.e.d.c.DatasourceConfig:50 - <<< Return << transactionManager: org.springframework.orm.jpa.JpaTransactionManager@1b06c50
+2021-12-16 10:31:13,081 INFO  [main] c.e.d.c.DatasourceConfig:52 - execution time: 21 ms
+2021-12-16 10:31:13,110 INFO  [main] s.d.s.w.PropertySourcedRequestMappingHandlerMapping:69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-12-16 10:31:13,114 INFO  [main] c.e.d.c.SwaggerConfig:37 - ---------Starting Interceptor --------------------
+2021-12-16 10:31:13,115 INFO  [main] c.e.d.c.SwaggerConfig:43 - the intercepted method is: api, of the class: com.example.demo.config.SwaggerConfig, with the following arguments  >>>
+2021-12-16 10:31:13,137 INFO  [main] c.e.d.c.SwaggerConfig:50 - <<< Return << api: springfox.documentation.spring.web.plugins.Docket@ed4034
+2021-12-16 10:31:13,138 INFO  [main] c.e.d.c.SwaggerConfig:52 - execution time: 23 ms
+2021-12-16 10:31:13,349 INFO  [main] o.s.b.a.w.s.WelcomePageHandlerMapping:57 - Adding welcome page template: index
+2021-12-16 10:31:15,204 INFO  [main] o.a.c.h.Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8090"]
+2021-12-16 10:31:15,239 INFO  [main] o.s.b.w.e.t.TomcatWebServer:220 - Tomcat started on port(s): 8090 (http) with context path ''
+2021-12-16 10:31:15,240 INFO  [main] s.d.s.w.p.DocumentationPluginsBootstrapper:160 - Context refreshed
+2021-12-16 10:31:15,290 INFO  [main] s.d.s.w.p.DocumentationPluginsBootstrapper:163 - Found 1 custom documentation plugin(s)
+2021-12-16 10:31:15,363 INFO  [main] s.d.s.w.s.ApiListingReferenceScanner:41 - Scanning for api listing references
+2021-12-16 10:31:15,704 INFO  [main] c.e.Proyecto1Application:61 - Started Proyecto1Application in 13.948 seconds (JVM running for 15.453)
+2021-12-16 11:38:59,557 WARN  [HikariPool-1 housekeeper] c.z.h.p.HikariPool:787 - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=58m49s469ms566µs).
+2021-12-16 11:39:21,099 INFO  [http-nio-8090-exec-1] o.a.c.c.C.[.[.[/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-16 11:39:21,099 INFO  [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet:525 - Initializing Servlet 'dispatcherServlet'
+2021-12-16 11:39:21,103 INFO  [http-nio-8090-exec-1] o.s.w.s.DispatcherServlet:547 - Completed initialization in 3 ms
+2021-12-16 11:42:41,228 INFO  [RMI TCP Connection(25)-127.0.0.1] o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin:159 - Application shutdown requested.
+2021-12-16 11:42:41,721 INFO  [RMI TCP Connection(25)-127.0.0.1] o.s.o.j.LocalContainerEntityManagerFactoryBean:651 - Closing JPA EntityManagerFactory for persistence unit 'unidaddePersisteniaPU'
+2021-12-16 11:42:41,723 INFO  [RMI TCP Connection(25)-127.0.0.1] c.z.h.HikariDataSource:350 - HikariPool-1 - Shutdown initiated...
+2021-12-16 11:42:41,731 INFO  [RMI TCP Connection(25)-127.0.0.1] c.z.h.HikariDataSource:352 - HikariPool-1 - Shutdown completed.

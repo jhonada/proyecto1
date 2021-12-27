@@ -1,5 +1,27 @@
-{"properties": [{
-  "name": "spring.server.port",
-  "type": "java.lang.String",
-  "description": "A description for 'spring.server.port'"
-}]}
+{"properties": [
+  {
+    "name": "spring.server.port",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.server.port'"
+  },
+  {
+    "name": "spring.zipkin.baseUrl",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.zipkin.baseUrl'"
+  },
+  {
+    "name": "management.endpoint.health.show-details",
+    "type": "java.lang.String",
+    "description": "A description for 'management.endpoint.health.show-details'"
+  },
+  {
+    "name": "management.endpoint.prometheus.enabled",
+    "type": "java.lang.String",
+    "description": "A description for 'management.endpoint.prometheus.enabled'"
+  },
+  {
+    "name": "management.endpoints.web.exposure.include",
+    "type": "java.lang.String",
+    "description": "A description for 'management.endpoints.web.exposure.include'"
+  }
+]}

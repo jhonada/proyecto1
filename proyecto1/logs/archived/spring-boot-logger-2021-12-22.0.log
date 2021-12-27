@@ -1,0 +1,60 @@
+2021-12-22 08:18:51,319 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] ---------Starting Interceptor --------------------
+2021-12-22 08:18:51,365 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] the intercepted method is: editUsuario, of the class: com.example.demo.controllers.ControllerBasic, with the following arguments  >>> ARG: 5,
+2021-12-22 08:18:51,367 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] ---------Starting Interceptor --------------------
+2021-12-22 08:18:51,368 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] the intercepted method is: findUsuarioById, of the class: com.example.demo.service.Impl.UsuarioServiceImpl, with the following arguments  >>> ARG: 5,
+2021-12-22 08:18:51,519 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] <<< Return << findUsuarioById: com.example.demo.model.Usuario@1485722
+2021-12-22 08:18:51,519 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] execution time: 151 ms
+2021-12-22 08:18:51,520 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] <<< Return << editUsuario: ModelAndView [view="editar"; model=null]
+2021-12-22 08:18:51,521 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] execution time: 153 ms
+2021-12-22 08:21:30,403 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] ---------Starting Interceptor --------------------
+2021-12-22 08:21:30,406 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] the intercepted method is: editUsuario, of the class: com.example.demo.controllers.ControllerBasic, with the following arguments  >>> ARG: 5,
+2021-12-22 08:21:30,407 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] ---------Starting Interceptor --------------------
+2021-12-22 08:21:30,408 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] the intercepted method is: findUsuarioById, of the class: com.example.demo.service.Impl.UsuarioServiceImpl, with the following arguments  >>> ARG: 5,
+2021-12-22 08:21:30,423 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] <<< Return << findUsuarioById: com.example.demo.model.Usuario@5267cc
+2021-12-22 08:21:30,424 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] execution time: 16 ms
+2021-12-22 08:21:30,425 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] <<< Return << editUsuario: ModelAndView [view="editar"; model=null]
+2021-12-22 08:21:30,426 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] execution time: 18 ms
+2021-12-22 08:33:34,420 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] ---------Starting Interceptor --------------------
+2021-12-22 08:33:34,421 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] the intercepted method is: editUsuario, of the class: com.example.demo.controllers.ControllerBasic, with the following arguments  >>> ARG: 5,
+2021-12-22 08:33:34,423 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] ---------Starting Interceptor --------------------
+2021-12-22 08:33:34,423 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] the intercepted method is: findUsuarioById, of the class: com.example.demo.service.Impl.UsuarioServiceImpl, with the following arguments  >>> ARG: 5,
+2021-12-22 08:33:34,432 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] <<< Return << findUsuarioById: com.example.demo.model.Usuario@181ceca
+2021-12-22 08:33:34,433 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] execution time: 10 ms
+2021-12-22 08:33:34,434 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] <<< Return << editUsuario: ModelAndView [view="editar"; model=null]
+2021-12-22 08:33:34,435 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-7] execution time: 12 ms
+2021-12-22 09:38:29,341 INFO org.springframework.boot.StartupInfoLogger [main] Starting Proyecto1Application using Java 1.8.0_20 on JDIAZ with PID 19656 (C:\Spring Tools\sts-4.11.1.RELEASE\workspace\proyecto1\target\classes started by anderson in C:\Spring Tools\sts-4.11.1.RELEASE\workspace\proyecto1)
+2021-12-22 09:38:29,345 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-12-22 09:38:29,346 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-12-22 09:38:41,120 INFO com.example.demo.aspect.SaludoLog [main] ---------Starting Interceptor --------------------
+2021-12-22 09:38:41,122 INFO com.example.demo.aspect.SaludoLog [main] the intercepted method is: entityManagerFactory, of the class: com.example.demo.config.DatasourceConfig, with the following arguments  >>>
+2021-12-22 09:38:41,171 INFO com.example.demo.aspect.SaludoLog [main] ---------Starting Interceptor --------------------
+2021-12-22 09:38:41,173 INFO com.example.demo.aspect.SaludoLog [main] the intercepted method is: datasource, of the class: com.example.demo.config.DatasourceConfig, with the following arguments  >>>
+2021-12-22 09:38:41,832 INFO com.example.demo.aspect.SaludoLog [main] <<< Return << datasource: HikariDataSource (null)
+2021-12-22 09:38:41,837 INFO com.example.demo.aspect.SaludoLog [main] execution time: 661 ms
+2021-12-22 09:38:41,921 INFO com.example.demo.aspect.SaludoLog [main] <<< Return << entityManagerFactory: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@1f6f3cc
+2021-12-22 09:38:41,922 INFO com.example.demo.aspect.SaludoLog [main] execution time: 750 ms
+2021-12-22 09:38:53,607 INFO com.example.demo.aspect.SaludoLog [main] ---------Starting Interceptor --------------------
+2021-12-22 09:38:53,608 INFO com.example.demo.aspect.SaludoLog [main] the intercepted method is: transactionManager, of the class: com.example.demo.config.DatasourceConfig, with the following arguments  >>>
+2021-12-22 09:38:53,642 INFO com.example.demo.aspect.SaludoLog [main] <<< Return << transactionManager: org.springframework.orm.jpa.JpaTransactionManager@192e14f
+2021-12-22 09:38:53,642 INFO com.example.demo.aspect.SaludoLog [main] execution time: 34 ms
+2021-12-22 09:38:53,686 INFO com.example.demo.aspect.SaludoLog [main] ---------Starting Interceptor --------------------
+2021-12-22 09:38:53,687 INFO com.example.demo.aspect.SaludoLog [main] the intercepted method is: api, of the class: com.example.demo.config.SwaggerConfig, with the following arguments  >>>
+2021-12-22 09:38:53,717 INFO com.example.demo.aspect.SaludoLog [main] <<< Return << api: springfox.documentation.spring.web.plugins.Docket@1f5a45
+2021-12-22 09:38:53,718 INFO com.example.demo.aspect.SaludoLog [main] execution time: 31 ms
+2021-12-22 09:38:58,425 INFO org.springframework.boot.StartupInfoLogger [main] Started Proyecto1Application in 31.105 seconds (JVM running for 60.325)
+2021-12-22 10:19:57,503 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-3] ---------Starting Interceptor --------------------
+2021-12-22 10:19:57,506 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-3] the intercepted method is: listAllUsuarios, of the class: com.example.demo.controllers.ControllerBasic, with the following arguments  >>> ARG: {},
+2021-12-22 10:19:57,561 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-3] ---------Starting Interceptor --------------------
+2021-12-22 10:19:57,561 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-3] the intercepted method is: listAllUsuario, of the class: com.example.demo.service.Impl.UsuarioServiceImpl, with the following arguments  >>>
+2021-12-22 10:19:58,991 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-3] <<< Return << listAllUsuario: [com.example.demo.model.Usuario@16318c9, com.example.demo.model.Usuario@6fb898, com.example.demo.model.Usuario@7e680f, com.example.demo.model.Usuario@134e837, com.example.demo.model.Usuario@10071e]
+2021-12-22 10:19:58,992 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-3] execution time: 1431 ms
+2021-12-22 10:19:58,993 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-3] <<< Return << listAllUsuarios: list
+2021-12-22 10:19:58,994 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-3] execution time: 1433 ms
+2021-12-22 10:20:11,472 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-9] ---------Starting Interceptor --------------------
+2021-12-22 10:20:11,474 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-9] the intercepted method is: editUsuario, of the class: com.example.demo.controllers.ControllerBasic, with the following arguments  >>> ARG: 5,
+2021-12-22 10:20:11,475 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-9] ---------Starting Interceptor --------------------
+2021-12-22 10:20:11,476 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-9] the intercepted method is: findUsuarioById, of the class: com.example.demo.service.Impl.UsuarioServiceImpl, with the following arguments  >>> ARG: 5,
+2021-12-22 10:20:11,617 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-9] <<< Return << findUsuarioById: com.example.demo.model.Usuario@1cc1966
+2021-12-22 10:20:11,618 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-9] execution time: 142 ms
+2021-12-22 10:20:11,619 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-9] <<< Return << editUsuario: ModelAndView [view="editar"; model=null]
+2021-12-22 10:20:11,620 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-9] execution time: 144 ms

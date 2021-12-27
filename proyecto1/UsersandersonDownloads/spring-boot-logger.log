@@ -1,0 +1,28 @@
+2021-12-16 11:46:35,732 INFO org.springframework.boot.StartupInfoLogger [main] Starting Proyecto1Application using Java 1.8.0_20 on JDIAZ with PID 9500 (C:\Spring Tools\sts-4.11.1.RELEASE\workspace\proyecto1\target\classes started by anderson in C:\Spring Tools\sts-4.11.1.RELEASE\workspace\proyecto1)
+2021-12-16 11:46:35,734 DEBUG org.springframework.boot.StartupInfoLogger [main] Running with Spring Boot v2.4.10, Spring v5.3.9
+2021-12-16 11:46:35,735 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-12-16 11:46:40,370 INFO com.example.demo.aspect.SaludoLog [main] ---------Starting Interceptor --------------------
+2021-12-16 11:46:40,373 INFO com.example.demo.aspect.SaludoLog [main] the intercepted method is: entityManagerFactory, of the class: com.example.demo.config.DatasourceConfig, with the following arguments  >>>
+2021-12-16 11:46:40,415 INFO com.example.demo.aspect.SaludoLog [main] ---------Starting Interceptor --------------------
+2021-12-16 11:46:40,415 INFO com.example.demo.aspect.SaludoLog [main] the intercepted method is: datasource, of the class: com.example.demo.config.DatasourceConfig, with the following arguments  >>>
+2021-12-16 11:46:40,572 INFO com.example.demo.aspect.SaludoLog [main] <<< Return << datasource: HikariDataSource (null)
+2021-12-16 11:46:40,576 INFO com.example.demo.aspect.SaludoLog [main] execution time: 158 ms
+2021-12-16 11:46:40,631 INFO com.example.demo.aspect.SaludoLog [main] <<< Return << entityManagerFactory: org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean@e12ac9
+2021-12-16 11:46:40,631 INFO com.example.demo.aspect.SaludoLog [main] execution time: 216 ms
+2021-12-16 11:46:45,911 INFO com.example.demo.aspect.SaludoLog [main] ---------Starting Interceptor --------------------
+2021-12-16 11:46:45,912 INFO com.example.demo.aspect.SaludoLog [main] the intercepted method is: transactionManager, of the class: com.example.demo.config.DatasourceConfig, with the following arguments  >>>
+2021-12-16 11:46:45,936 INFO com.example.demo.aspect.SaludoLog [main] <<< Return << transactionManager: org.springframework.orm.jpa.JpaTransactionManager@1a85a55
+2021-12-16 11:46:45,937 INFO com.example.demo.aspect.SaludoLog [main] execution time: 25 ms
+2021-12-16 11:46:45,978 INFO com.example.demo.aspect.SaludoLog [main] ---------Starting Interceptor --------------------
+2021-12-16 11:46:45,979 INFO com.example.demo.aspect.SaludoLog [main] the intercepted method is: api, of the class: com.example.demo.config.SwaggerConfig, with the following arguments  >>>
+2021-12-16 11:46:45,997 INFO com.example.demo.aspect.SaludoLog [main] <<< Return << api: springfox.documentation.spring.web.plugins.Docket@20da9f
+2021-12-16 11:46:45,997 INFO com.example.demo.aspect.SaludoLog [main] execution time: 18 ms
+2021-12-16 11:46:48,575 INFO org.springframework.boot.StartupInfoLogger [main] Started Proyecto1Application in 13.781 seconds (JVM running for 15.83)
+2021-12-16 11:46:59,346 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] ---------Starting Interceptor --------------------
+2021-12-16 11:46:59,348 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] the intercepted method is: listAllUsuarios, of the class: com.example.demo.controllers.ControllerBasic, with the following arguments  >>> ARG: {},
+2021-12-16 11:46:59,356 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] ---------Starting Interceptor --------------------
+2021-12-16 11:46:59,357 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] the intercepted method is: listAllUsuario, of the class: com.example.demo.service.Impl.UsuarioServiceImpl, with the following arguments  >>>
+2021-12-16 11:47:00,438 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] <<< Return << listAllUsuario: [com.example.demo.model.Usuario@1cdc82f, com.example.demo.model.Usuario@1ee8f48, com.example.demo.model.Usuario@f2a098, com.example.demo.model.Usuario@59cab8, com.example.demo.model.Usuario@7650db, com.example.demo.model.Usuario@1751e12, com.example.demo.model.Usuario@6c8f44]
+2021-12-16 11:47:00,439 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] execution time: 1082 ms
+2021-12-16 11:47:00,440 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] <<< Return << listAllUsuarios: list
+2021-12-16 11:47:00,440 INFO com.example.demo.aspect.SaludoLog [http-nio-8090-exec-1] execution time: 1083 ms
