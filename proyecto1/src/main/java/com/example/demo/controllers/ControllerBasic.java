@@ -80,7 +80,7 @@ public class ControllerBasic {
 	public ModelAndView editUsuario(@PathVariable(name = "id") Long Id) {
 	    ModelAndView mav = new ModelAndView("editar");
 	    Usuario usuario = usuarioService.findUsuarioById(Id);
-	    //mav.addObject("usuario", usuario);
+	    mav.addObject("usuario", usuario);
 	     
 	    return mav;
 	}
